@@ -45,7 +45,7 @@ echo "radiation ALL=(ALL) ALL" >> /etc/sudoers.d/radiation
 
 sudo timedatectl set-ntp true
 sudo hwclock --systohc
-sudo pacman -S --noconfirm xorg
+sudo pacman -S --noconfirm sudo pacman -S --noconfirm xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
 
 
 
