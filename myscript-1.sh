@@ -48,13 +48,6 @@ sudo hwclock --systohc
 sudo pacman -S --noconfirm xorg
 
 
-sudo pacman -S git
-sudo git clone https://aur.archlinux.org/yay-git.git
-sudo chown -R radiation:radiation ./yay-git
-cd yay-git
-makepkg -si
-
-yay -S libxft-bgra JoyPixel pywal
 
 printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
 
