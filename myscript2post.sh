@@ -1,4 +1,3 @@
-
 sudo pacman -S git
 sudo git clone https://aur.archlinux.org/yay-git.git
 sudo chown -R radiation:radiation ./yay-git
